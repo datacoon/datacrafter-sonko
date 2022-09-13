@@ -47,8 +47,6 @@ Enriches data with data from NGO organizations profiles from openngo.ru
 _Warning - for internal usage only. Prepared dataset already provided. if you would like to have this data, ask for API access or data dump here ivan@begtin.tech._
 
 ```
-
-
 cd code
 python3 process.py enrich
 ```
