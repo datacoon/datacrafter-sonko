@@ -16,7 +16,7 @@ This dataset could be reused for further data enrichment, data analysis and vizu
 
 ## Quick use
 
-Just take database from `output/dump/openngo/sonko_fin.bson` and load it into local MongoDB
+Just take database from `output/dump/openngo/sonko_fin.bson.gz` and load it into local MongoDB using `mongorestore`
 
 ## Collect data
 If you would like to collect data use [datacrafter](github.com/apicrafter/datacrafter) tool to collect data from data.economy.gov.ru
