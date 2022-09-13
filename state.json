@@ -1,0 +1,15 @@
+{
+    "stages": [
+        {
+            "name": "extractor",
+            "status": "success",
+            "results": [
+                {
+                    "filename": "current\\data.xlsx",
+                    "compressed": false,
+                    "type": "file"
+                }
+            ]
+        }
+    ]
+}

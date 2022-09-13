@@ -1,0 +1,387 @@
+2022-09-12 17:31:45,432 [MainThread  ] [INFO ]  Started project: sonko
+2022-09-12 17:31:45,433 [MainThread  ] [INFO ]  Initialize project. Create required directories
+2022-09-12 17:31:45,434 [MainThread  ] [INFO ]  Preparing project extract, processor and destination
+2022-09-12 17:31:45,435 [MainThread  ] [INFO ]  Extractor class <class 'datacrafter.extractors.base.BaseExtractor'>
+2022-09-12 17:31:45,435 [MainThread  ] [INFO ]  Processor class <class 'datacrafter.processors.base.CommonProcessor'>
+2022-09-12 17:31:45,435 [MainThread  ] [INFO ]  Destination C:\workspace\public\apicrafter\datacrafter-examples\sonko\output\data.jsonl.zip, is binary False, compression zip
+2022-09-12 17:31:45,436 [MainThread  ] [INFO ]  Destination class <class 'datacrafter.destinations.jsonl.JSONLinesDestination'>
+2022-09-12 17:31:45,436 [MainThread  ] [INFO ]  Running extractor
+2022-09-12 17:31:45,436 [MainThread  ] [INFO ]  Extract single file https://data.economy.gov.ru/files/sonko_organizations.xlsx
+2022-09-12 17:31:45,436 [MainThread  ] [INFO ]  Retrieving C:\workspace\public\apicrafter\datacrafter-examples\sonko\current\data.xls from https://data.economy.gov.ru/files/sonko_organizations.xlsx
+2022-09-12 17:31:45,438 [MainThread  ] [DEBUG]  Starting new HTTPS connection (1): data.economy.gov.ru:443
+2022-09-12 17:31:45,603 [MainThread  ] [DEBUG]  https://data.economy.gov.ru:443 "GET /files/sonko_organizations.xlsx HTTP/1.1" 200 7147164
+2022-09-12 17:31:46,303 [MainThread  ] [DEBUG]  File C:\workspace\public\apicrafter\datacrafter-examples\sonko\current\data.xls to size 4096000
+2022-09-12 17:31:46,664 [MainThread  ] [INFO ]  Running processor
+2022-09-12 17:31:46,665 [MainThread  ] [INFO ]  Processing data.xls
+2022-09-12 17:31:46,665 [MainThread  ] [INFO ]  Getting source from extractor results, filename: current\data.xls stype: None, options: {'start_line': 2, 'autoid': True, 'autotype': True, 'autoindex': True, 'autoindex_mode': 'uniq,dict', 'keys': 'inn,fullname,shortname,regaddr,ogrn,orgform,okved,sonko_status,ngo_status,inclusion_reason,sponsor_name,date_support,date_inclusion'}
+2022-09-12 17:31:46,666 [MainThread  ] [DEBUG]  Use XLS source with filename current\data.xls, keys ['inn', 'fullname', 'shortname', 'regaddr', 'ogrn', 'orgform', 'okved', 'sonko_status', 'ngo_status', 'inclusion_reason', 'sponsor_name', 'date_support', 'date_inclusion']
+2022-09-12 17:31:55,415 [MainThread  ] [INFO ]  Started project: sonko
+2022-09-12 17:31:55,416 [MainThread  ] [INFO ]  Initialize project. Create required directories
+2022-09-12 17:31:55,418 [MainThread  ] [INFO ]  Directory C:\workspace\public\apicrafter\datacrafter-examples\sonko\current can't be created
+2022-09-12 17:31:55,418 [MainThread  ] [INFO ]  Directory C:\workspace\public\apicrafter\datacrafter-examples\sonko\output can't be created
+2022-09-12 17:31:55,418 [MainThread  ] [INFO ]  Directory C:\workspace\public\apicrafter\datacrafter-examples\sonko\temp can't be created
+2022-09-12 17:31:55,418 [MainThread  ] [INFO ]  Directory C:\workspace\public\apicrafter\datacrafter-examples\sonko\builds can't be created
+2022-09-12 17:31:55,419 [MainThread  ] [INFO ]  Directory C:\workspace\public\apicrafter\datacrafter-examples\sonko\storage can't be created
+2022-09-12 17:31:55,423 [MainThread  ] [INFO ]  Preparing project extract, processor and destination
+2022-09-12 17:31:55,424 [MainThread  ] [INFO ]  Extractor class <class 'datacrafter.extractors.base.BaseExtractor'>
+2022-09-12 17:31:55,424 [MainThread  ] [INFO ]  Processor class <class 'datacrafter.processors.base.CommonProcessor'>
+2022-09-12 17:31:55,424 [MainThread  ] [INFO ]  Destination C:\workspace\public\apicrafter\datacrafter-examples\sonko\output\data.jsonl.zip, is binary False, compression zip
+2022-09-12 17:31:55,425 [MainThread  ] [INFO ]  Destination class <class 'datacrafter.destinations.jsonl.JSONLinesDestination'>
+2022-09-12 17:31:55,425 [MainThread  ] [INFO ]  Running extractor
+2022-09-12 17:31:55,426 [MainThread  ] [INFO ]  Skip extractor stage
+2022-09-12 17:31:55,426 [MainThread  ] [INFO ]  Running processor
+2022-09-12 17:31:55,426 [MainThread  ] [INFO ]  Processing data.xls
+2022-09-12 17:31:55,426 [MainThread  ] [INFO ]  Getting source from extractor results, filename: current\data.xls stype: None, options: {'start_line': 2, 'autoid': True, 'autotype': True, 'autoindex': True, 'autoindex_mode': 'uniq,dict', 'keys': 'inn,fullname,shortname,regaddr,ogrn,orgform,okved,sonko_status,ngo_status,inclusion_reason,sponsor_name,date_support,date_inclusion'}
+2022-09-12 17:31:55,427 [MainThread  ] [DEBUG]  Use XLS source with filename current\data.xls, keys ['inn', 'fullname', 'shortname', 'regaddr', 'ogrn', 'orgform', 'okved', 'sonko_status', 'ngo_status', 'inclusion_reason', 'sponsor_name', 'date_support', 'date_inclusion']
+2022-09-12 17:32:11,406 [MainThread  ] [INFO ]  Started project: sonko
+2022-09-12 17:32:11,407 [MainThread  ] [INFO ]  Initialize project. Create required directories
+2022-09-12 17:32:11,407 [MainThread  ] [INFO ]  Directory C:\workspace\public\apicrafter\datacrafter-examples\sonko\current can't be created
+2022-09-12 17:32:11,407 [MainThread  ] [INFO ]  Directory C:\workspace\public\apicrafter\datacrafter-examples\sonko\output can't be created
+2022-09-12 17:32:11,408 [MainThread  ] [INFO ]  Directory C:\workspace\public\apicrafter\datacrafter-examples\sonko\temp can't be created
+2022-09-12 17:32:11,408 [MainThread  ] [INFO ]  Directory C:\workspace\public\apicrafter\datacrafter-examples\sonko\builds can't be created
+2022-09-12 17:32:11,408 [MainThread  ] [INFO ]  Directory C:\workspace\public\apicrafter\datacrafter-examples\sonko\storage can't be created
+2022-09-12 17:32:11,409 [MainThread  ] [INFO ]  Preparing project extract, processor and destination
+2022-09-12 17:32:11,409 [MainThread  ] [INFO ]  Extractor class <class 'datacrafter.extractors.base.BaseExtractor'>
+2022-09-12 17:32:11,410 [MainThread  ] [INFO ]  Processor class <class 'datacrafter.processors.base.CommonProcessor'>
+2022-09-12 17:32:11,410 [MainThread  ] [INFO ]  Destination C:\workspace\public\apicrafter\datacrafter-examples\sonko\output\data.jsonl.zip, is binary False, compression zip
+2022-09-12 17:32:11,411 [MainThread  ] [INFO ]  Destination class <class 'datacrafter.destinations.jsonl.JSONLinesDestination'>
+2022-09-12 17:32:11,411 [MainThread  ] [INFO ]  Running extractor
+2022-09-12 17:32:11,411 [MainThread  ] [INFO ]  Skip extractor stage
+2022-09-12 17:32:11,411 [MainThread  ] [INFO ]  Running processor
+2022-09-12 17:32:11,412 [MainThread  ] [INFO ]  Processing data.xls
+2022-09-12 17:32:11,412 [MainThread  ] [INFO ]  Getting source from extractor results, filename: current\data.xls stype: None, options: {'start_line': 2, 'autoid': True, 'autotype': True, 'autoindex': True, 'autoindex_mode': 'uniq,dict', 'keys': 'inn,fullname,shortname,regaddr,ogrn,orgform,okved,sonko_status,ngo_status,inclusion_reason,sponsor_name,date_support,date_inclusion'}
+2022-09-12 17:32:11,412 [MainThread  ] [DEBUG]  Use XLS source with filename current\data.xls, keys ['inn', 'fullname', 'shortname', 'regaddr', 'ogrn', 'orgform', 'okved', 'sonko_status', 'ngo_status', 'inclusion_reason', 'sponsor_name', 'date_support', 'date_inclusion']
+2022-09-12 17:32:21,584 [MainThread  ] [INFO ]  Started project: sonko
+2022-09-12 17:32:21,585 [MainThread  ] [INFO ]  Initialize project. Create required directories
+2022-09-12 17:32:21,585 [MainThread  ] [INFO ]  Directory C:\workspace\public\apicrafter\datacrafter-examples\sonko\current can't be created
+2022-09-12 17:32:21,585 [MainThread  ] [INFO ]  Directory C:\workspace\public\apicrafter\datacrafter-examples\sonko\output can't be created
+2022-09-12 17:32:21,586 [MainThread  ] [INFO ]  Directory C:\workspace\public\apicrafter\datacrafter-examples\sonko\temp can't be created
+2022-09-12 17:32:21,586 [MainThread  ] [INFO ]  Directory C:\workspace\public\apicrafter\datacrafter-examples\sonko\builds can't be created
+2022-09-12 17:32:21,586 [MainThread  ] [INFO ]  Directory C:\workspace\public\apicrafter\datacrafter-examples\sonko\storage can't be created
+2022-09-12 17:32:21,587 [MainThread  ] [INFO ]  Preparing project extract, processor and destination
+2022-09-12 17:32:21,587 [MainThread  ] [INFO ]  Extractor class <class 'datacrafter.extractors.base.BaseExtractor'>
+2022-09-12 17:32:21,587 [MainThread  ] [INFO ]  Processor class <class 'datacrafter.processors.base.CommonProcessor'>
+2022-09-12 17:32:21,588 [MainThread  ] [INFO ]  Destination C:\workspace\public\apicrafter\datacrafter-examples\sonko\output\data.jsonl.zip, is binary False, compression zip
+2022-09-12 17:32:21,588 [MainThread  ] [INFO ]  Destination class <class 'datacrafter.destinations.jsonl.JSONLinesDestination'>
+2022-09-12 17:32:21,588 [MainThread  ] [INFO ]  Running extractor
+2022-09-12 17:32:21,589 [MainThread  ] [INFO ]  Skip extractor stage
+2022-09-12 17:32:21,589 [MainThread  ] [INFO ]  Running processor
+2022-09-12 17:32:21,589 [MainThread  ] [INFO ]  Processing data.xls
+2022-09-12 17:32:21,589 [MainThread  ] [INFO ]  Getting source from extractor results, filename: current\data.xls stype: None, options: {'start_line': 2, 'autoid': True, 'autotype': True, 'autoindex': True, 'autoindex_mode': 'uniq,dict', 'keys': 'inn,fullname,shortname,regaddr,ogrn,orgform,okved,sonko_status,ngo_status,inclusion_reason,sponsor_name,date_support,date_inclusion'}
+2022-09-12 17:32:21,589 [MainThread  ] [DEBUG]  Use XLS source with filename current\data.xls, keys ['inn', 'fullname', 'shortname', 'regaddr', 'ogrn', 'orgform', 'okved', 'sonko_status', 'ngo_status', 'inclusion_reason', 'sponsor_name', 'date_support', 'date_inclusion']
+2022-09-12 17:32:33,357 [MainThread  ] [INFO ]  Clean project data. Clean storage: False
+2022-09-12 17:32:33,357 [MainThread  ] [DEBUG]  Removed state file C:\workspace\public\apicrafter\datacrafter-examples\sonko\state.json
+2022-09-12 17:32:33,358 [MainThread  ] [INFO ]  Cleaning output dir
+2022-09-12 17:32:33,359 [MainThread  ] [DEBUG]  Remove C:\workspace\public\apicrafter\datacrafter-examples\sonko\output\data.jsonl.zip from None
+2022-09-12 17:32:33,359 [MainThread  ] [INFO ]  Cleaning current dir
+2022-09-12 17:32:33,360 [MainThread  ] [INFO ]  Cleaning tempdir
+2022-09-12 17:32:33,360 [MainThread  ] [INFO ]  Cleaning storage dir, if exists
+2022-09-12 17:32:48,524 [MainThread  ] [INFO ]  Started project: sonko
+2022-09-12 17:32:48,524 [MainThread  ] [INFO ]  Initialize project. Create required directories
+2022-09-12 17:32:48,525 [MainThread  ] [INFO ]  Directory C:\workspace\public\apicrafter\datacrafter-examples\sonko\current can't be created
+2022-09-12 17:32:48,525 [MainThread  ] [INFO ]  Directory C:\workspace\public\apicrafter\datacrafter-examples\sonko\output can't be created
+2022-09-12 17:32:48,525 [MainThread  ] [INFO ]  Directory C:\workspace\public\apicrafter\datacrafter-examples\sonko\temp can't be created
+2022-09-12 17:32:48,526 [MainThread  ] [INFO ]  Directory C:\workspace\public\apicrafter\datacrafter-examples\sonko\builds can't be created
+2022-09-12 17:32:48,526 [MainThread  ] [INFO ]  Directory C:\workspace\public\apicrafter\datacrafter-examples\sonko\storage can't be created
+2022-09-12 17:32:48,526 [MainThread  ] [INFO ]  Preparing project extract, processor and destination
+2022-09-12 17:32:48,527 [MainThread  ] [INFO ]  Extractor class <class 'datacrafter.extractors.base.BaseExtractor'>
+2022-09-12 17:32:48,527 [MainThread  ] [INFO ]  Processor class <class 'datacrafter.processors.base.CommonProcessor'>
+2022-09-12 17:32:48,527 [MainThread  ] [INFO ]  Destination C:\workspace\public\apicrafter\datacrafter-examples\sonko\output\data.jsonl.zip, is binary False, compression zip
+2022-09-12 17:32:48,528 [MainThread  ] [INFO ]  Destination class <class 'datacrafter.destinations.jsonl.JSONLinesDestination'>
+2022-09-12 17:32:48,528 [MainThread  ] [INFO ]  Running extractor
+2022-09-12 17:32:48,528 [MainThread  ] [INFO ]  Extract single file https://data.economy.gov.ru/files/sonko_organizations.xlsx
+2022-09-12 17:32:48,528 [MainThread  ] [INFO ]  Retrieving C:\workspace\public\apicrafter\datacrafter-examples\sonko\current\data.xlsx from https://data.economy.gov.ru/files/sonko_organizations.xlsx
+2022-09-12 17:32:48,530 [MainThread  ] [DEBUG]  Starting new HTTPS connection (1): data.economy.gov.ru:443
+2022-09-12 17:32:48,637 [MainThread  ] [DEBUG]  https://data.economy.gov.ru:443 "GET /files/sonko_organizations.xlsx HTTP/1.1" 200 7147164
+2022-09-12 17:32:52,335 [MainThread  ] [DEBUG]  File C:\workspace\public\apicrafter\datacrafter-examples\sonko\current\data.xlsx to size 4096000
+2022-09-12 17:32:52,646 [MainThread  ] [INFO ]  Running processor
+2022-09-12 17:32:52,647 [MainThread  ] [INFO ]  Processing data.xlsx
+2022-09-12 17:32:52,648 [MainThread  ] [INFO ]  Getting source from extractor results, filename: current\data.xlsx stype: None, options: {'start_line': 2, 'autoid': True, 'autotype': True, 'autoindex': True, 'autoindex_mode': 'uniq,dict', 'keys': 'inn,fullname,shortname,regaddr,ogrn,orgform,okved,sonko_status,ngo_status,inclusion_reason,sponsor_name,date_support,date_inclusion'}
+2022-09-12 17:32:52,648 [MainThread  ] [DEBUG]  Use XLSX source with filename current\data.xlsx, keys ['inn', 'fullname', 'shortname', 'regaddr', 'ogrn', 'orgform', 'okved', 'sonko_status', 'ngo_status', 'inclusion_reason', 'sponsor_name', 'date_support', 'date_inclusion']
+2022-09-12 17:33:38,258 [MainThread  ] [DEBUG]  Processed 5000 records
+2022-09-12 17:33:38,484 [MainThread  ] [DEBUG]  Processed 10000 records
+2022-09-12 17:33:38,741 [MainThread  ] [DEBUG]  Processed 15000 records
+2022-09-12 17:33:38,971 [MainThread  ] [DEBUG]  Processed 20000 records
+2022-09-12 17:33:39,193 [MainThread  ] [DEBUG]  Processed 25000 records
+2022-09-12 17:33:39,432 [MainThread  ] [DEBUG]  Processed 30000 records
+2022-09-12 17:33:39,681 [MainThread  ] [DEBUG]  Processed 35000 records
+2022-09-12 17:33:39,967 [MainThread  ] [DEBUG]  Processed 40000 records
+2022-09-12 17:33:40,199 [MainThread  ] [DEBUG]  Processed 45000 records
+2022-09-12 17:33:40,421 [MainThread  ] [DEBUG]  Processed 50000 records
+2022-09-12 17:33:40,648 [MainThread  ] [DEBUG]  Processed 55000 records
+2022-09-12 17:33:40,880 [MainThread  ] [DEBUG]  Processed 60000 records
+2022-09-12 17:33:41,112 [MainThread  ] [DEBUG]  Processed 65000 records
+2022-09-12 17:33:41,353 [MainThread  ] [DEBUG]  Processed 70000 records
+2022-09-12 17:33:41,608 [MainThread  ] [DEBUG]  Processed 75000 records
+2022-09-12 17:33:41,872 [MainThread  ] [DEBUG]  Processed 80000 records
+2022-09-12 17:33:42,176 [MainThread  ] [DEBUG]  Processed 85000 records
+2022-09-12 17:33:42,407 [MainThread  ] [INFO ]  Processing complete data.xlsx
+2022-09-12 17:33:42,408 [MainThread  ] [INFO ]  Finished project: sonko
+2022-09-12 17:39:00,415 [MainThread  ] [INFO ]  Started project: sonko
+2022-09-12 17:39:00,415 [MainThread  ] [INFO ]  Initialize project. Create required directories
+2022-09-12 17:39:00,416 [MainThread  ] [INFO ]  Directory C:\workspace\public\apicrafter\datacrafter-examples\sonko\current can't be created
+2022-09-12 17:39:00,416 [MainThread  ] [INFO ]  Directory C:\workspace\public\apicrafter\datacrafter-examples\sonko\output can't be created
+2022-09-12 17:39:00,416 [MainThread  ] [INFO ]  Directory C:\workspace\public\apicrafter\datacrafter-examples\sonko\temp can't be created
+2022-09-12 17:39:00,417 [MainThread  ] [INFO ]  Directory C:\workspace\public\apicrafter\datacrafter-examples\sonko\builds can't be created
+2022-09-12 17:39:00,417 [MainThread  ] [INFO ]  Directory C:\workspace\public\apicrafter\datacrafter-examples\sonko\storage can't be created
+2022-09-12 17:39:00,422 [MainThread  ] [INFO ]  Preparing project extract, processor and destination
+2022-09-12 17:39:00,423 [MainThread  ] [INFO ]  Extractor class <class 'datacrafter.extractors.base.BaseExtractor'>
+2022-09-12 17:39:00,423 [MainThread  ] [INFO ]  Added custom code script step scripts/cleaner.py
+2022-09-12 17:39:00,424 [MainThread  ] [INFO ]  Processor class <class 'datacrafter.processors.base.CommonProcessor'>
+2022-09-12 17:39:00,424 [MainThread  ] [INFO ]  Destination C:\workspace\public\apicrafter\datacrafter-examples\sonko\output\data.jsonl.zip, is binary False, compression zip
+2022-09-12 17:39:00,425 [MainThread  ] [INFO ]  Destination class <class 'datacrafter.destinations.jsonl.JSONLinesDestination'>
+2022-09-12 17:39:00,425 [MainThread  ] [INFO ]  Running extractor
+2022-09-12 17:39:00,425 [MainThread  ] [INFO ]  Skip extractor stage
+2022-09-12 17:39:00,426 [MainThread  ] [INFO ]  Running processor
+2022-09-12 17:39:00,426 [MainThread  ] [INFO ]  Processing data.xlsx
+2022-09-12 17:39:00,426 [MainThread  ] [INFO ]  Getting source from extractor results, filename: current\data.xlsx stype: None, options: {'start_line': 2, 'autoid': True, 'autotype': True, 'autoindex': True, 'autoindex_mode': 'uniq,dict', 'keys': 'inn,fullname,shortname,regaddr,ogrn,orgform,okved,sonko_status,ngo_status,inclusion_reason,sponsor_name,date_support,date_inclusion'}
+2022-09-12 17:39:00,426 [MainThread  ] [DEBUG]  Use XLSX source with filename current\data.xlsx, keys ['inn', 'fullname', 'shortname', 'regaddr', 'ogrn', 'orgform', 'okved', 'sonko_status', 'ngo_status', 'inclusion_reason', 'sponsor_name', 'date_support', 'date_inclusion']
+2022-09-12 17:39:39,798 [MainThread  ] [DEBUG]  Processed 5000 records
+2022-09-12 17:39:40,048 [MainThread  ] [DEBUG]  Processed 10000 records
+2022-09-12 17:39:40,291 [MainThread  ] [DEBUG]  Processed 15000 records
+2022-09-12 17:39:40,552 [MainThread  ] [DEBUG]  Processed 20000 records
+2022-09-12 17:39:40,844 [MainThread  ] [DEBUG]  Processed 25000 records
+2022-09-12 17:39:41,106 [MainThread  ] [DEBUG]  Processed 30000 records
+2022-09-12 17:39:41,439 [MainThread  ] [DEBUG]  Processed 35000 records
+2022-09-12 17:39:41,723 [MainThread  ] [DEBUG]  Processed 40000 records
+2022-09-12 17:39:41,986 [MainThread  ] [DEBUG]  Processed 45000 records
+2022-09-12 17:39:42,233 [MainThread  ] [DEBUG]  Processed 50000 records
+2022-09-12 17:39:42,493 [MainThread  ] [DEBUG]  Processed 55000 records
+2022-09-12 17:39:42,760 [MainThread  ] [DEBUG]  Processed 60000 records
+2022-09-12 17:39:43,024 [MainThread  ] [DEBUG]  Processed 65000 records
+2022-09-12 17:39:43,296 [MainThread  ] [DEBUG]  Processed 70000 records
+2022-09-12 17:39:43,563 [MainThread  ] [DEBUG]  Processed 75000 records
+2022-09-12 17:39:43,853 [MainThread  ] [DEBUG]  Processed 80000 records
+2022-09-12 17:39:44,125 [MainThread  ] [DEBUG]  Processed 85000 records
+2022-09-12 17:39:44,399 [MainThread  ] [INFO ]  Processing complete data.xlsx
+2022-09-12 17:39:44,400 [MainThread  ] [INFO ]  Finished project: sonko
+2022-09-12 18:06:42,194 [MainThread  ] [INFO ]  Started project: sonko
+2022-09-12 18:06:42,194 [MainThread  ] [INFO ]  Initialize project. Create required directories
+2022-09-12 18:06:42,195 [MainThread  ] [INFO ]  Directory C:\workspace\public\apicrafter\datacrafter-examples\sonko\current can't be created
+2022-09-12 18:06:42,195 [MainThread  ] [INFO ]  Directory C:\workspace\public\apicrafter\datacrafter-examples\sonko\output can't be created
+2022-09-12 18:06:42,195 [MainThread  ] [INFO ]  Directory C:\workspace\public\apicrafter\datacrafter-examples\sonko\temp can't be created
+2022-09-12 18:06:42,196 [MainThread  ] [INFO ]  Directory C:\workspace\public\apicrafter\datacrafter-examples\sonko\builds can't be created
+2022-09-12 18:06:42,196 [MainThread  ] [INFO ]  Directory C:\workspace\public\apicrafter\datacrafter-examples\sonko\storage can't be created
+2022-09-12 18:06:42,196 [MainThread  ] [INFO ]  Preparing project extract, processor and destination
+2022-09-12 18:06:42,197 [MainThread  ] [INFO ]  Extractor class <class 'datacrafter.extractors.base.BaseExtractor'>
+2022-09-12 18:06:42,197 [MainThread  ] [INFO ]  Added custom code script step scripts/cleaner.py
+2022-09-12 18:06:42,198 [MainThread  ] [INFO ]  Processor class <class 'datacrafter.processors.base.CommonProcessor'>
+2022-09-12 18:06:42,198 [MainThread  ] [INFO ]  Destination C:\workspace\public\apicrafter\datacrafter-examples\sonko\output\data.csv.zip, is binary False, compression zip
+2022-09-12 18:06:42,198 [MainThread  ] [INFO ]  Destination class <class 'datacrafter.destinations.csv.CSVDestination'>
+2022-09-12 18:06:42,199 [MainThread  ] [INFO ]  Running extractor
+2022-09-12 18:06:42,199 [MainThread  ] [INFO ]  Skip extractor stage
+2022-09-12 18:06:42,199 [MainThread  ] [INFO ]  Running processor
+2022-09-12 18:06:42,199 [MainThread  ] [INFO ]  Processing data.xlsx
+2022-09-12 18:06:42,199 [MainThread  ] [INFO ]  Getting source from extractor results, filename: current\data.xlsx stype: None, options: {'start_line': 2, 'autoid': True, 'autotype': True, 'autoindex': True, 'autoindex_mode': 'uniq,dict', 'keys': 'inn,fullname,shortname,regaddr,ogrn,orgform,okved,sonko_status,ngo_status,inclusion_reason,sponsor_name,date_support,date_inclusion'}
+2022-09-12 18:06:42,200 [MainThread  ] [DEBUG]  Use XLSX source with filename current\data.xlsx, keys ['inn', 'fullname', 'shortname', 'regaddr', 'ogrn', 'orgform', 'okved', 'sonko_status', 'ngo_status', 'inclusion_reason', 'sponsor_name', 'date_support', 'date_inclusion']
+2022-09-12 18:12:30,862 [MainThread  ] [INFO ]  Started project: sonko
+2022-09-12 18:12:30,862 [MainThread  ] [INFO ]  Initialize project. Create required directories
+2022-09-12 18:12:30,863 [MainThread  ] [INFO ]  Directory C:\workspace\public\apicrafter\datacrafter-examples\sonko\current can't be created
+2022-09-12 18:12:30,863 [MainThread  ] [INFO ]  Directory C:\workspace\public\apicrafter\datacrafter-examples\sonko\output can't be created
+2022-09-12 18:12:30,863 [MainThread  ] [INFO ]  Directory C:\workspace\public\apicrafter\datacrafter-examples\sonko\temp can't be created
+2022-09-12 18:12:30,864 [MainThread  ] [INFO ]  Directory C:\workspace\public\apicrafter\datacrafter-examples\sonko\builds can't be created
+2022-09-12 18:12:30,864 [MainThread  ] [INFO ]  Directory C:\workspace\public\apicrafter\datacrafter-examples\sonko\storage can't be created
+2022-09-12 18:12:30,864 [MainThread  ] [INFO ]  Preparing project extract, processor and destination
+2022-09-12 18:12:30,865 [MainThread  ] [INFO ]  Extractor class <class 'datacrafter.extractors.base.BaseExtractor'>
+2022-09-12 18:12:30,865 [MainThread  ] [INFO ]  Added custom code script step scripts/cleaner.py
+2022-09-12 18:12:30,866 [MainThread  ] [INFO ]  Processor class <class 'datacrafter.processors.base.CommonProcessor'>
+2022-09-12 18:12:30,866 [MainThread  ] [INFO ]  Destination C:\workspace\public\apicrafter\datacrafter-examples\sonko\output\data.jsonl.zip, is binary False, compression zip
+2022-09-12 18:12:30,867 [MainThread  ] [INFO ]  Destination class <class 'datacrafter.destinations.jsonl.JSONLinesDestination'>
+2022-09-12 18:12:30,867 [MainThread  ] [INFO ]  Running extractor
+2022-09-12 18:12:30,867 [MainThread  ] [INFO ]  Skip extractor stage
+2022-09-12 18:12:30,867 [MainThread  ] [INFO ]  Running processor
+2022-09-12 18:12:30,868 [MainThread  ] [INFO ]  Processing data.xlsx
+2022-09-12 18:12:30,868 [MainThread  ] [INFO ]  Getting source from extractor results, filename: current\data.xlsx stype: None, options: {'start_line': 2, 'autoid': True, 'autotype': True, 'autoindex': True, 'autoindex_mode': 'uniq,dict', 'keys': 'inn,fullname,shortname,regaddr,ogrn,orgform,okved,sonko_status,ngo_status,inclusion_reason,sponsor_name,date_support,date_inclusion'}
+2022-09-12 18:12:30,868 [MainThread  ] [DEBUG]  Use XLSX source with filename current\data.xlsx, keys ['inn', 'fullname', 'shortname', 'regaddr', 'ogrn', 'orgform', 'okved', 'sonko_status', 'ngo_status', 'inclusion_reason', 'sponsor_name', 'date_support', 'date_inclusion']
+2022-09-12 18:13:12,595 [MainThread  ] [DEBUG]  Processed 5000 records
+2022-09-12 18:13:12,867 [MainThread  ] [DEBUG]  Processed 10000 records
+2022-09-12 18:13:13,161 [MainThread  ] [DEBUG]  Processed 15000 records
+2022-09-12 18:13:13,445 [MainThread  ] [DEBUG]  Processed 20000 records
+2022-09-12 18:13:13,723 [MainThread  ] [DEBUG]  Processed 25000 records
+2022-09-12 18:13:13,992 [MainThread  ] [DEBUG]  Processed 30000 records
+2022-09-12 18:13:14,292 [MainThread  ] [DEBUG]  Processed 35000 records
+2022-09-12 18:13:14,578 [MainThread  ] [DEBUG]  Processed 40000 records
+2022-09-12 18:13:14,850 [MainThread  ] [DEBUG]  Processed 45000 records
+2022-09-12 18:13:15,127 [MainThread  ] [DEBUG]  Processed 50000 records
+2022-09-12 18:13:15,379 [MainThread  ] [DEBUG]  Processed 55000 records
+2022-09-12 18:13:15,634 [MainThread  ] [DEBUG]  Processed 60000 records
+2022-09-12 18:13:15,895 [MainThread  ] [DEBUG]  Processed 65000 records
+2022-09-12 18:13:16,163 [MainThread  ] [DEBUG]  Processed 70000 records
+2022-09-12 18:13:16,422 [MainThread  ] [DEBUG]  Processed 75000 records
+2022-09-12 18:13:16,695 [MainThread  ] [DEBUG]  Processed 80000 records
+2022-09-12 18:13:16,950 [MainThread  ] [DEBUG]  Processed 85000 records
+2022-09-12 18:13:17,207 [MainThread  ] [INFO ]  Processing complete data.xlsx
+2022-09-12 18:13:17,208 [MainThread  ] [INFO ]  Finished project: sonko
+2022-09-12 18:14:22,359 [MainThread  ] [INFO ]  Started project: sonko
+2022-09-12 18:14:22,360 [MainThread  ] [INFO ]  Initialize project. Create required directories
+2022-09-12 18:14:22,360 [MainThread  ] [INFO ]  Directory C:\workspace\public\apicrafter\datacrafter-examples\sonko\current can't be created
+2022-09-12 18:14:22,360 [MainThread  ] [INFO ]  Directory C:\workspace\public\apicrafter\datacrafter-examples\sonko\output can't be created
+2022-09-12 18:14:22,361 [MainThread  ] [INFO ]  Directory C:\workspace\public\apicrafter\datacrafter-examples\sonko\temp can't be created
+2022-09-12 18:14:22,361 [MainThread  ] [INFO ]  Directory C:\workspace\public\apicrafter\datacrafter-examples\sonko\builds can't be created
+2022-09-12 18:14:22,362 [MainThread  ] [INFO ]  Directory C:\workspace\public\apicrafter\datacrafter-examples\sonko\storage can't be created
+2022-09-12 18:14:22,362 [MainThread  ] [INFO ]  Preparing project extract, processor and destination
+2022-09-12 18:14:22,362 [MainThread  ] [INFO ]  Extractor class <class 'datacrafter.extractors.base.BaseExtractor'>
+2022-09-12 18:14:22,363 [MainThread  ] [INFO ]  Added custom code script step scripts/cleaner.py
+2022-09-12 18:14:22,363 [MainThread  ] [INFO ]  Processor class <class 'datacrafter.processors.base.CommonProcessor'>
+2022-09-12 18:14:22,363 [MainThread  ] [INFO ]  Destination C:\workspace\public\apicrafter\datacrafter-examples\sonko\output\data.jsonl.zip, is binary False, compression zip
+2022-09-12 18:14:22,364 [MainThread  ] [INFO ]  Destination class <class 'datacrafter.destinations.jsonl.JSONLinesDestination'>
+2022-09-12 18:14:22,364 [MainThread  ] [INFO ]  Running extractor
+2022-09-12 18:14:22,365 [MainThread  ] [INFO ]  Skip extractor stage
+2022-09-12 18:14:22,365 [MainThread  ] [INFO ]  Running processor
+2022-09-12 18:14:22,365 [MainThread  ] [INFO ]  Processing data.xlsx
+2022-09-12 18:14:22,365 [MainThread  ] [INFO ]  Getting source from extractor results, filename: current\data.xlsx stype: None, options: {'start_line': 3, 'autoid': True, 'autotype': True, 'autoindex': True, 'autoindex_mode': 'uniq,dict', 'keys': 'inn,fullname,shortname,regaddr,ogrn,orgform,okved,sonko_status,ngo_status,inclusion_reason,sponsor_name,date_support,date_inclusion'}
+2022-09-12 18:14:22,365 [MainThread  ] [DEBUG]  Use XLSX source with filename current\data.xlsx, keys ['inn', 'fullname', 'shortname', 'regaddr', 'ogrn', 'orgform', 'okved', 'sonko_status', 'ngo_status', 'inclusion_reason', 'sponsor_name', 'date_support', 'date_inclusion']
+2022-09-12 18:15:07,774 [MainThread  ] [DEBUG]  Processed 5000 records
+2022-09-12 18:15:08,061 [MainThread  ] [DEBUG]  Processed 10000 records
+2022-09-12 18:15:08,339 [MainThread  ] [DEBUG]  Processed 15000 records
+2022-09-12 18:15:08,616 [MainThread  ] [DEBUG]  Processed 20000 records
+2022-09-12 18:15:08,890 [MainThread  ] [DEBUG]  Processed 25000 records
+2022-09-12 18:15:09,158 [MainThread  ] [DEBUG]  Processed 30000 records
+2022-09-12 18:15:09,487 [MainThread  ] [DEBUG]  Processed 35000 records
+2022-09-12 18:15:10,021 [MainThread  ] [DEBUG]  Processed 40000 records
+2022-09-12 18:15:10,455 [MainThread  ] [DEBUG]  Processed 45000 records
+2022-09-12 18:15:10,780 [MainThread  ] [DEBUG]  Processed 50000 records
+2022-09-12 18:15:11,072 [MainThread  ] [DEBUG]  Processed 55000 records
+2022-09-12 18:15:11,370 [MainThread  ] [DEBUG]  Processed 60000 records
+2022-09-12 18:15:11,737 [MainThread  ] [DEBUG]  Processed 65000 records
+2022-09-12 18:15:12,069 [MainThread  ] [DEBUG]  Processed 70000 records
+2022-09-12 18:15:12,347 [MainThread  ] [DEBUG]  Processed 75000 records
+2022-09-12 18:15:12,653 [MainThread  ] [DEBUG]  Processed 80000 records
+2022-09-12 18:15:12,914 [MainThread  ] [DEBUG]  Processed 85000 records
+2022-09-12 18:15:13,175 [MainThread  ] [INFO ]  Processing complete data.xlsx
+2022-09-12 18:15:13,176 [MainThread  ] [INFO ]  Finished project: sonko
+2022-09-12 18:16:49,710 [MainThread  ] [INFO ]  Started project: sonko
+2022-09-12 18:16:49,711 [MainThread  ] [INFO ]  Initialize project. Create required directories
+2022-09-12 18:16:49,711 [MainThread  ] [INFO ]  Directory C:\workspace\public\apicrafter\datacrafter-examples\sonko\current can't be created
+2022-09-12 18:16:49,711 [MainThread  ] [INFO ]  Directory C:\workspace\public\apicrafter\datacrafter-examples\sonko\output can't be created
+2022-09-12 18:16:49,712 [MainThread  ] [INFO ]  Directory C:\workspace\public\apicrafter\datacrafter-examples\sonko\temp can't be created
+2022-09-12 18:16:49,712 [MainThread  ] [INFO ]  Directory C:\workspace\public\apicrafter\datacrafter-examples\sonko\builds can't be created
+2022-09-12 18:16:49,713 [MainThread  ] [INFO ]  Directory C:\workspace\public\apicrafter\datacrafter-examples\sonko\storage can't be created
+2022-09-12 18:16:49,713 [MainThread  ] [INFO ]  Preparing project extract, processor and destination
+2022-09-12 18:16:49,713 [MainThread  ] [INFO ]  Extractor class <class 'datacrafter.extractors.base.BaseExtractor'>
+2022-09-12 18:16:49,714 [MainThread  ] [INFO ]  Added custom code script step scripts/cleaner.py
+2022-09-12 18:16:49,714 [MainThread  ] [INFO ]  Processor class <class 'datacrafter.processors.base.CommonProcessor'>
+2022-09-12 18:16:49,715 [MainThread  ] [INFO ]  Destination C:\workspace\public\apicrafter\datacrafter-examples\sonko\output\data.jsonl, is binary False, compression None
+2022-09-12 18:16:49,715 [MainThread  ] [INFO ]  Destination class <class 'datacrafter.destinations.jsonl.JSONLinesDestination'>
+2022-09-12 18:16:49,716 [MainThread  ] [INFO ]  Running extractor
+2022-09-12 18:16:49,716 [MainThread  ] [INFO ]  Skip extractor stage
+2022-09-12 18:16:49,716 [MainThread  ] [INFO ]  Running processor
+2022-09-12 18:16:49,716 [MainThread  ] [INFO ]  Processing data.xlsx
+2022-09-12 18:16:49,717 [MainThread  ] [INFO ]  Getting source from extractor results, filename: current\data.xlsx stype: None, options: {'start_line': 3, 'autoid': True, 'autotype': True, 'autoindex': True, 'autoindex_mode': 'uniq,dict', 'keys': 'inn,fullname,shortname,regaddr,ogrn,orgform,okved,sonko_status,ngo_status,inclusion_reason,sponsor_name,date_support,date_inclusion'}
+2022-09-12 18:16:49,717 [MainThread  ] [DEBUG]  Use XLSX source with filename current\data.xlsx, keys ['inn', 'fullname', 'shortname', 'regaddr', 'ogrn', 'orgform', 'okved', 'sonko_status', 'ngo_status', 'inclusion_reason', 'sponsor_name', 'date_support', 'date_inclusion']
+2022-09-12 18:17:33,604 [MainThread  ] [DEBUG]  Processed 5000 records
+2022-09-12 18:17:33,796 [MainThread  ] [DEBUG]  Processed 10000 records
+2022-09-12 18:17:33,986 [MainThread  ] [DEBUG]  Processed 15000 records
+2022-09-12 18:17:34,184 [MainThread  ] [DEBUG]  Processed 20000 records
+2022-09-12 18:17:34,383 [MainThread  ] [DEBUG]  Processed 25000 records
+2022-09-12 18:17:34,601 [MainThread  ] [DEBUG]  Processed 30000 records
+2022-09-12 18:17:34,801 [MainThread  ] [DEBUG]  Processed 35000 records
+2022-09-12 18:17:34,991 [MainThread  ] [DEBUG]  Processed 40000 records
+2022-09-12 18:17:35,188 [MainThread  ] [DEBUG]  Processed 45000 records
+2022-09-12 18:17:35,422 [MainThread  ] [DEBUG]  Processed 50000 records
+2022-09-12 18:17:35,665 [MainThread  ] [DEBUG]  Processed 55000 records
+2022-09-12 18:17:35,872 [MainThread  ] [DEBUG]  Processed 60000 records
+2022-09-12 18:17:36,098 [MainThread  ] [DEBUG]  Processed 65000 records
+2022-09-12 18:17:36,384 [MainThread  ] [DEBUG]  Processed 70000 records
+2022-09-12 18:17:36,671 [MainThread  ] [DEBUG]  Processed 75000 records
+2022-09-12 18:17:36,888 [MainThread  ] [DEBUG]  Processed 80000 records
+2022-09-12 18:17:37,105 [MainThread  ] [DEBUG]  Processed 85000 records
+2022-09-12 18:17:37,313 [MainThread  ] [INFO ]  Processing complete data.xlsx
+2022-09-12 18:17:37,315 [MainThread  ] [INFO ]  Finished project: sonko
+2022-09-12 19:33:25,201 [MainThread  ] [INFO ]  Started project: sonko
+2022-09-12 19:33:25,202 [MainThread  ] [INFO ]  Initialize project. Create required directories
+2022-09-12 19:33:25,202 [MainThread  ] [INFO ]  Directory C:\workspace\public\apicrafter\datacrafter-examples\sonko\current can't be created
+2022-09-12 19:33:25,203 [MainThread  ] [INFO ]  Directory C:\workspace\public\apicrafter\datacrafter-examples\sonko\output can't be created
+2022-09-12 19:33:25,203 [MainThread  ] [INFO ]  Directory C:\workspace\public\apicrafter\datacrafter-examples\sonko\temp can't be created
+2022-09-12 19:33:25,203 [MainThread  ] [INFO ]  Directory C:\workspace\public\apicrafter\datacrafter-examples\sonko\builds can't be created
+2022-09-12 19:33:25,204 [MainThread  ] [INFO ]  Directory C:\workspace\public\apicrafter\datacrafter-examples\sonko\storage can't be created
+2022-09-12 19:33:25,204 [MainThread  ] [INFO ]  Preparing project extract, processor and destination
+2022-09-12 19:33:25,205 [MainThread  ] [INFO ]  Extractor class <class 'datacrafter.extractors.base.BaseExtractor'>
+2022-09-12 19:33:25,205 [MainThread  ] [INFO ]  Added custom code script step scripts/cleaner.py
+2022-09-12 19:33:25,206 [MainThread  ] [INFO ]  Processor class <class 'datacrafter.processors.base.CommonProcessor'>
+2022-09-12 19:33:25,206 [MainThread  ] [INFO ]  Destination C:\workspace\public\apicrafter\datacrafter-examples\sonko\output\data.bson, is binary True, compression None
+2022-09-12 19:33:25,206 [MainThread  ] [INFO ]  Destination class <class 'datacrafter.destinations.bsonf.BSONDestination'>
+2022-09-12 19:33:25,207 [MainThread  ] [INFO ]  Running extractor
+2022-09-12 19:33:25,207 [MainThread  ] [INFO ]  Skip extractor stage
+2022-09-12 19:33:25,207 [MainThread  ] [INFO ]  Running processor
+2022-09-12 19:33:25,207 [MainThread  ] [INFO ]  Processing data.xlsx
+2022-09-12 19:33:25,207 [MainThread  ] [INFO ]  Getting source from extractor results, filename: current\data.xlsx stype: None, options: {'start_line': 3, 'autoid': True, 'autotype': True, 'autoindex': True, 'autoindex_mode': 'uniq,dict', 'keys': 'inn,fullname,shortname,regaddr,ogrn,orgform,okved,sonko_status,ngo_status,inclusion_reason,sponsor_name,date_support,date_inclusion'}
+2022-09-12 19:33:25,207 [MainThread  ] [DEBUG]  Use XLSX source with filename current\data.xlsx, keys ['inn', 'fullname', 'shortname', 'regaddr', 'ogrn', 'orgform', 'okved', 'sonko_status', 'ngo_status', 'inclusion_reason', 'sponsor_name', 'date_support', 'date_inclusion']
+2022-09-12 19:33:51,139 [MainThread  ] [DEBUG]  Processed 5000 records
+2022-09-12 19:33:51,261 [MainThread  ] [DEBUG]  Processed 10000 records
+2022-09-12 19:33:51,377 [MainThread  ] [DEBUG]  Processed 15000 records
+2022-09-12 19:33:51,497 [MainThread  ] [DEBUG]  Processed 20000 records
+2022-09-12 19:33:51,617 [MainThread  ] [DEBUG]  Processed 25000 records
+2022-09-12 19:33:51,739 [MainThread  ] [DEBUG]  Processed 30000 records
+2022-09-12 19:33:51,857 [MainThread  ] [DEBUG]  Processed 35000 records
+2022-09-12 19:33:51,979 [MainThread  ] [DEBUG]  Processed 40000 records
+2022-09-12 19:33:52,100 [MainThread  ] [DEBUG]  Processed 45000 records
+2022-09-12 19:33:52,222 [MainThread  ] [DEBUG]  Processed 50000 records
+2022-09-12 19:33:52,341 [MainThread  ] [DEBUG]  Processed 55000 records
+2022-09-12 19:33:52,460 [MainThread  ] [DEBUG]  Processed 60000 records
+2022-09-12 19:33:52,580 [MainThread  ] [DEBUG]  Processed 65000 records
+2022-09-12 19:33:52,701 [MainThread  ] [DEBUG]  Processed 70000 records
+2022-09-12 19:33:52,824 [MainThread  ] [DEBUG]  Processed 75000 records
+2022-09-12 19:33:52,946 [MainThread  ] [DEBUG]  Processed 80000 records
+2022-09-12 19:33:53,072 [MainThread  ] [DEBUG]  Processed 85000 records
+2022-09-12 19:33:53,183 [MainThread  ] [INFO ]  Processing complete data.xlsx
+2022-09-12 19:33:53,184 [MainThread  ] [INFO ]  Finished project: sonko
+2022-09-12 19:35:46,578 [MainThread  ] [INFO ]  Started project: sonko
+2022-09-12 19:35:46,579 [MainThread  ] [INFO ]  Initialize project. Create required directories
+2022-09-12 19:35:46,579 [MainThread  ] [INFO ]  Directory C:\workspace\public\apicrafter\datacrafter-examples\sonko\current can't be created
+2022-09-12 19:35:46,579 [MainThread  ] [INFO ]  Directory C:\workspace\public\apicrafter\datacrafter-examples\sonko\output can't be created
+2022-09-12 19:35:46,579 [MainThread  ] [INFO ]  Directory C:\workspace\public\apicrafter\datacrafter-examples\sonko\temp can't be created
+2022-09-12 19:35:46,580 [MainThread  ] [INFO ]  Directory C:\workspace\public\apicrafter\datacrafter-examples\sonko\builds can't be created
+2022-09-12 19:35:46,580 [MainThread  ] [INFO ]  Directory C:\workspace\public\apicrafter\datacrafter-examples\sonko\storage can't be created
+2022-09-12 19:35:46,580 [MainThread  ] [INFO ]  Preparing project extract, processor and destination
+2022-09-12 19:35:46,580 [MainThread  ] [INFO ]  Extractor class <class 'datacrafter.extractors.base.BaseExtractor'>
+2022-09-12 19:35:46,580 [MainThread  ] [INFO ]  Added type mapping step with schema {'date_support': 'datetime', 'date_inclusion': 'datetime'}
+2022-09-12 19:35:46,581 [MainThread  ] [INFO ]  Added custom code script step scripts/cleaner.py
+2022-09-12 19:35:46,581 [MainThread  ] [INFO ]  Processor class <class 'datacrafter.processors.base.CommonProcessor'>
+2022-09-12 19:35:46,581 [MainThread  ] [INFO ]  Destination C:\workspace\public\apicrafter\datacrafter-examples\sonko\output\data.bson, is binary True, compression None
+2022-09-12 19:35:46,587 [MainThread  ] [INFO ]  Destination class <class 'datacrafter.destinations.bsonf.BSONDestination'>
+2022-09-12 19:35:46,588 [MainThread  ] [INFO ]  Running extractor
+2022-09-12 19:35:46,588 [MainThread  ] [INFO ]  Skip extractor stage
+2022-09-12 19:35:46,589 [MainThread  ] [INFO ]  Running processor
+2022-09-12 19:35:46,589 [MainThread  ] [INFO ]  Processing data.xlsx
+2022-09-12 19:35:46,589 [MainThread  ] [INFO ]  Getting source from extractor results, filename: current\data.xlsx stype: None, options: {'start_line': 3, 'autoid': True, 'autotype': True, 'autoindex': True, 'autoindex_mode': 'uniq,dict', 'keys': 'inn,fullname,shortname,regaddr,ogrn,orgform,okved,sonko_status,ngo_status,inclusion_reason,supporter_name,date_support,date_inclusion'}
+2022-09-12 19:35:46,589 [MainThread  ] [DEBUG]  Use XLSX source with filename current\data.xlsx, keys ['inn', 'fullname', 'shortname', 'regaddr', 'ogrn', 'orgform', 'okved', 'sonko_status', 'ngo_status', 'inclusion_reason', 'supporter_name', 'date_support', 'date_inclusion']
+2022-09-12 19:37:03,236 [MainThread  ] [INFO ]  Started project: sonko
+2022-09-12 19:37:03,236 [MainThread  ] [INFO ]  Initialize project. Create required directories
+2022-09-12 19:37:03,237 [MainThread  ] [INFO ]  Directory C:\workspace\public\apicrafter\datacrafter-examples\sonko\current can't be created
+2022-09-12 19:37:03,237 [MainThread  ] [INFO ]  Directory C:\workspace\public\apicrafter\datacrafter-examples\sonko\output can't be created
+2022-09-12 19:37:03,238 [MainThread  ] [INFO ]  Directory C:\workspace\public\apicrafter\datacrafter-examples\sonko\temp can't be created
+2022-09-12 19:37:03,238 [MainThread  ] [INFO ]  Directory C:\workspace\public\apicrafter\datacrafter-examples\sonko\builds can't be created
+2022-09-12 19:37:03,239 [MainThread  ] [INFO ]  Directory C:\workspace\public\apicrafter\datacrafter-examples\sonko\storage can't be created
+2022-09-12 19:37:03,239 [MainThread  ] [INFO ]  Preparing project extract, processor and destination
+2022-09-12 19:37:03,240 [MainThread  ] [INFO ]  Extractor class <class 'datacrafter.extractors.base.BaseExtractor'>
+2022-09-12 19:37:03,240 [MainThread  ] [INFO ]  Added type mapping step with schema {'date_support': 'datetime', 'date_inclusion': 'datetime'}
+2022-09-12 19:37:03,241 [MainThread  ] [INFO ]  Added custom code script step scripts/cleaner.py
+2022-09-12 19:37:03,241 [MainThread  ] [INFO ]  Processor class <class 'datacrafter.processors.base.CommonProcessor'>
+2022-09-12 19:37:03,241 [MainThread  ] [INFO ]  Destination C:\workspace\public\apicrafter\datacrafter-examples\sonko\output\data.bson, is binary True, compression None
+2022-09-12 19:37:03,241 [MainThread  ] [INFO ]  Destination class <class 'datacrafter.destinations.bsonf.BSONDestination'>
+2022-09-12 19:37:03,241 [MainThread  ] [INFO ]  Running extractor
+2022-09-12 19:37:03,242 [MainThread  ] [INFO ]  Skip extractor stage
+2022-09-12 19:37:03,242 [MainThread  ] [INFO ]  Running processor
+2022-09-12 19:37:03,242 [MainThread  ] [INFO ]  Processing data.xlsx
+2022-09-12 19:37:03,242 [MainThread  ] [INFO ]  Getting source from extractor results, filename: current\data.xlsx stype: None, options: {'start_line': 3, 'autoid': True, 'autotype': True, 'autoindex': True, 'autoindex_mode': 'uniq,dict', 'keys': 'inn,fullname,shortname,regaddr,ogrn,orgform,okved,sonko_status,ngo_status,inclusion_reason,supporter_name,date_support,date_inclusion'}
+2022-09-12 19:37:03,242 [MainThread  ] [DEBUG]  Use XLSX source with filename current\data.xlsx, keys ['inn', 'fullname', 'shortname', 'regaddr', 'ogrn', 'orgform', 'okved', 'sonko_status', 'ngo_status', 'inclusion_reason', 'supporter_name', 'date_support', 'date_inclusion']
+2022-09-12 19:37:29,159 [MainThread  ] [DEBUG]  Processed 5000 records
+2022-09-12 19:37:29,579 [MainThread  ] [DEBUG]  Processed 10000 records
+2022-09-12 19:37:30,027 [MainThread  ] [DEBUG]  Processed 15000 records
+2022-09-12 19:37:30,462 [MainThread  ] [DEBUG]  Processed 20000 records
+2022-09-12 19:37:30,845 [MainThread  ] [DEBUG]  Processed 25000 records
+2022-09-12 19:37:31,233 [MainThread  ] [DEBUG]  Processed 30000 records
+2022-09-12 19:37:31,608 [MainThread  ] [DEBUG]  Processed 35000 records
+2022-09-12 19:37:31,978 [MainThread  ] [DEBUG]  Processed 40000 records
+2022-09-12 19:37:32,344 [MainThread  ] [DEBUG]  Processed 45000 records
+2022-09-12 19:37:32,704 [MainThread  ] [DEBUG]  Processed 50000 records
+2022-09-12 19:37:33,076 [MainThread  ] [DEBUG]  Processed 55000 records
+2022-09-12 19:37:33,433 [MainThread  ] [DEBUG]  Processed 60000 records
+2022-09-12 19:37:33,797 [MainThread  ] [DEBUG]  Processed 65000 records
+2022-09-12 19:37:34,164 [MainThread  ] [DEBUG]  Processed 70000 records
+2022-09-12 19:37:34,568 [MainThread  ] [DEBUG]  Processed 75000 records
+2022-09-12 19:37:34,996 [MainThread  ] [DEBUG]  Processed 80000 records
+2022-09-12 19:37:35,359 [MainThread  ] [DEBUG]  Processed 85000 records
+2022-09-12 19:37:35,716 [MainThread  ] [INFO ]  Processing complete data.xlsx
+2022-09-12 19:37:35,717 [MainThread  ] [INFO ]  Finished project: sonko
