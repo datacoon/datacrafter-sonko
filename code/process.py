@@ -25,7 +25,11 @@ def stage():
     coll = db[STG_COLLNAME]     
     all_inn = db[RAW_COLLNAME].distinct('inn')
     for inn in all_inn: 
-        rows = list(db[RAW_COLLNAME].find({'inn' : inn}))
+        raw_rows = list(db[RAW_COLLNAME].find({'inn' : inn}))
+        rows = []
+        for row in raw_rows:
+            del row['_id']
+        rows.append(row)
         org = {}
         for k in ['inn', 'fullname', 'shortname', 'ogrn']:
             org[k] = rows[0][k]
