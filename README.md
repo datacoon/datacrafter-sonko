@@ -51,7 +51,7 @@ cd code
 python3 process.py enrich
 ```
 
-Updates collection **sonko_stg**
+Creates collection **sonko_fin**
 
 # Data schema
 
